@@ -33,9 +33,6 @@ curve = plot.plot(pen='y')
 x_data = []
 y_data = []
 
-# Sampling frequency (Hz)
-fs = 10000 # Increase the sampling frequency for faster plotting
-
 # Main loop
 def update_plot():
     global x_data, y_data
